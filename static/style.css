@@ -1,0 +1,60 @@
+body {
+  background-image: url("farm.jpg");
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-size: cover; /* Make sure the image covers the entire background */
+  background-position: center; /* Center the background image */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Set the height of the body to fill the viewport */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.login {
+  text-align: center; /* Center content inside the login div */
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent background for better contrast */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000; /* Add shadow for better visibility */
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-bottom: 4px solid black;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight background color for contrast */
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+#predi {
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000; /* Add shadow for better readability */
+  margin-top: 20px;
+}

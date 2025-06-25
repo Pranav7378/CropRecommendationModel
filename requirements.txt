@@ -1,0 +1,4 @@
+streamlit
+scikit-learn
+numpy
+pandas        # only if you keep the bar-chart snippet

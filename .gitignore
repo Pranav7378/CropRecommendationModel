@@ -1,0 +1,15 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore pycache and temporary files
+__pycache__/
+*.pyc
+
+# Track everything else
+!.gitignore
+!*.py
+!*.pkl
+!requirements.txt
+!*.csv
+!*.ipynb
+!streamlitapp.py
